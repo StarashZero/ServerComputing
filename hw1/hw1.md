@@ -6,13 +6,15 @@
 个人主页: [https://starashzero.github.io](https://starashzero.github.io)   
 实验要求: [https://pmlpml.github.io/ServiceComputingOnCloud/ex-install-cloud](https://pmlpml.github.io/ServiceComputingOnCloud/ex-install-cloud)  
 
-## **安装VirtualBox**  
+## **安装VirtualBox**    
 1. VirtualBox与git安装过程省略  
 2. 创建虚拟机内部虚拟网络  
     点击VirtualBox管理->主机网络管理器，创建一块虚拟网卡，配置如下图：  
-    ![](picture/1.png)  
+
+![](picture/1.png)    
     配置完成后可以在cmd中通过ipconfig指令查看网卡信息  
-    ![](picture/2.png)  
+  
+![](picture/2.png)  
 ## **创建Linux虚拟机**  
 1. 下载[Centos](https://www.centos.org/download/), minimalISO即可。  
 2. 创建虚拟机，配置如下图：  
