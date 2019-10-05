@@ -1,4 +1,10 @@
-# **CLI 命令行实用程序开发基础**
+# **CLI 命令行实用程序开发基础**  
+## **前言**
+这是中山大学数据科学与计算机学院2019年服务计算的作业项目。所有代码与博客将被上传至github当中。  
+Go-Online项目地址: [http://139.9.57.167:20080/share/bmcbs3u76kvpt2sh99pg?secret=false](http://139.9.57.167:20080/share/bmcbs3u76kvpt2sh99pg?secret=false)  
+Github项目地址: [https://github.com/StarashZero/ServerComputing/hw3](https://github.com/StarashZero/ServerComputing/hw3)  
+个人主页: [https://starashzero.github.io](https://starashzero.github.io)   
+实验要求: [https://pmlpml.github.io/ServiceComputingOnCloud/ex-cli-basic](https://pmlpml.github.io/ServiceComputingOnCloud/ex-cli-basic)  
 ## **1、**概述****
   CLI（Command Line Interface）实用程序是Linux下应用开发的基础。正确的编写命令行程序让应用与操作系统融为一体，通过shell或script使得应用获得最大的灵活性与开发效率。Linux提供了cat、ls、copy等命令与操作系统交互；go语言提供一组实用程序完成从编码、编译、库管理、产品发布全过程支持；容器服务如docker、k8s提供了大量实用程序支撑云服务的开发、部署、监控、访问等管理任务；git、npm等都是大家比较熟悉的工具。尽管操作系统与应用系统服务可视化、图形化，但在开发领域，CLI在编程、调试、运维、管理中提供了图形化程序不可替代的灵活性与效率  
 
