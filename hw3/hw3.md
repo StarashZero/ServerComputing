@@ -2,7 +2,7 @@
 ## **前言**
 这是中山大学数据科学与计算机学院2019年服务计算的作业项目。所有代码与博客将被上传至github当中。  
 Go-Online项目地址: [http://139.9.57.167:20080/share/bmcbs3u76kvpt2sh99pg?secret=false](http://139.9.57.167:20080/share/bmcbs3u76kvpt2sh99pg?secret=false)  
-Github项目地址: [https://github.com/StarashZero/ServerComputing/hw3](https://github.com/StarashZero/ServerComputing/hw3)  
+Github项目地址: [https://github.com/StarashZero/ServerComputing/tree/master/hw3](https://github.com/StarashZero/ServerComputing/tree/master/hw3)  
 个人主页: [https://starashzero.github.io](https://starashzero.github.io)   
 实验要求: [https://pmlpml.github.io/ServiceComputingOnCloud/ex-cli-basic](https://pmlpml.github.io/ServiceComputingOnCloud/ex-cli-basic)  
 ## **1、**概述****
