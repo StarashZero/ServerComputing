@@ -96,13 +96,14 @@ Github项目地址: [https://github.com/StarashZero/ServerComputing/tree/master/
     使用ab进行压力测试  
     ![](picture/4.png)  
     一些参数解释  
-    参数| 解释|
-    -|-|
-    Server Hostname| 服务器域名|
-    Server Port|服务器端口|
+      
+    参数| 解释|  
+    -|-|  
+    Server Hostname| 服务器域名|  
+    Server Port|服务器端口|  
     Concurrency Level|此次测试的一轮request的并发数|  
     Time taken for tests|测试的时长|  
-    Complete request|完成的request测试数|
-    Request per second|每秒完成的request数|
-    Time per request|每次request所用的时间|  
-    Connection Times|各阶段所需的时间|
+    Complete request|完成的request测试数|  
+    Request per second|每秒完成的request数|  
+    Time per request|每次request所用的时间|   
+    Connection Times|各阶段所需的时间|  
