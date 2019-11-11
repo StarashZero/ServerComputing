@@ -1,0 +1,98 @@
+/*
+    Author: 颜屹豪
+    Group: Night-Nine
+    Extra:设置了多个难度，稍微美化了一下界面，图片是使用多年的壁纸(2333, 希望你能喜欢。
+*/
+
+/*整体布局*/
+body div{
+    margin: 0;
+    padding: 0;
+}
+/*容器*/
+#container {
+    position: relative;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-image: url("img/bg.jpg");
+}
+/*显示屏*/
+#display {
+    opacity: 0.6;
+    background-color: white;
+    border-radius: 25%;
+    font-size: 25px;
+    color: deepskyblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 30px;
+    width: 600px;
+}
+/*选项集*/
+#radioset {
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+.radio {
+    width: 50px;
+    height: 50px;
+}
+
+/*各选项*/
+#to_1,#to_2,#to_3,#to_4 {
+    display: inline-block;
+}
+
+#to_1 {
+    background-color: yellow;
+}
+
+#to_2 {
+    background-color: green;
+}
+
+#to_3 {
+    background-color: blue;
+}
+
+#to_4 {
+    background-color: red;
+}
+
+/*游戏主体*/
+#game {
+    background-image: url("img/background.jpg");
+    background-color: white;
+    border: skyblue solid 1px;
+    position: relative;
+    font-size: 0;
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*开始按钮*/
+#button {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#reset {
+    border-radius: 15%;
+    background-color: skyblue;
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+}
+
+
+
+
