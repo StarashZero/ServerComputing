@@ -47,8 +47,8 @@ X-Content-Type-Options: nosniff
 ```GET /user/articles```  
 可包含的参数如下:   
   
-| | |  
-|---|---|---|  
+|||  
+|-|-|
 |private|是否包含私有博客，若为true则需认证|   
 |max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|    
 示例:  
@@ -63,7 +63,7 @@ curl -i -uuser https://spblog.com/user/articles?private=true&max_length=10
 ```GET /user/search/```  
 可附带的参数如下:  
 |||  
--|-|-|  
+-|-| 
 private|是否包含私有博客，若为true则需认证|  
 max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|  
 keyword|用于查找的关键词|  
@@ -76,7 +76,7 @@ in_content|是否搜索博客内容，若为false则只搜索标题|
 ```PUT /user/upload```  
 可被包含的参数如下  
 |||
--|-|-|  
+-|-|
 private|是否为私密文章|  
 title|文章标题|  
 summary|文章概述，空置则默认为文章第一段|  
@@ -98,7 +98,7 @@ https://spblog.com/user/upload?private=true
 ```PUT /user/upload```  
 可被包含的参数如下  
 |||
--|-|-|  
+-|-| 
 id|文章id|
 private|是否为私密文章|  
 title|文章标题|  
