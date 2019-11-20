@@ -45,11 +45,12 @@ X-Content-Type-Options: nosniff
 ### Articles list  
 可以查看用户的所有已发布博客，响应中还会附带每篇博客的概述(若为指定则默认文章第一段)  
 ```GET /user/articles```  
-可包含的参数如下:  
-|||
--|-|-|
-private|是否包含私有博客，若为true则需认证|  
-max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|  
+可包含的参数如下:   
+  
+|||  
+|---|---|---|  
+|private|是否包含私有博客，若为true则需认证|   
+|max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|    
 示例:  
 curl -i -uuser https://spblog.com/user/articles?private=true&max_length=10  
 表示查看最近发布的10篇博客(包含私密博客)  
