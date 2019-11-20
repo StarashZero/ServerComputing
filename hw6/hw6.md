@@ -48,7 +48,7 @@ X-Content-Type-Options: nosniff
 可包含的参数如下:   
   
 |||  
-|-|-|
+|---|---|  
 |private|是否包含私有博客，若为true则需认证|   
 |max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|    
 示例:  
@@ -64,11 +64,11 @@ curl -i -uuser https://spblog.com/user/articles?private=true&max_length=10
 可附带的参数如下:  
   
 |||  
--|-| 
-private|是否包含私有博客，若为true则需认证|  
-max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|  
-keyword|用于查找的关键词|  
-in_content|是否搜索博客内容，若为false则只搜索标题|  
+|---|---|   
+|private|是否包含私有博客，若为true则需认证|  
+|max_length|选取博客的最大数量(时间排序)，不设置或为null则表示无限制|  
+|keyword|用于查找的关键词|  
+|in_content|是否搜索博客内容，若为false则只搜索标题|  
 实例:  
 ```curl -uuser -i https://spblog.com/user/search?keyword=api&private=true&in_content=true```  
 表示搜索包含"api"的所有博客  
@@ -77,12 +77,12 @@ in_content|是否搜索博客内容，若为false则只搜索标题|
 ```PUT /user/upload```  
 可被包含的参数如下  
   
-|||
--|-|
-private|是否为私密文章|  
-title|文章标题|  
-summary|文章概述，空置则默认为文章第一段|  
-content|文章内容|  
+|||  
+|---|---|  
+|private|是否为私密文章|  
+|title|文章标题|  
+|summary|文章概述，空置则默认为文章第一段|  
+|content|文章内容|  
 可使用JSON格式上传较长的参数，示例:    
 ```js
 curl -uuser -i -d '
@@ -101,12 +101,12 @@ https://spblog.com/user/upload?private=true
 可被包含的参数如下  
   
 |||
--|-| 
-id|文章id|
-private|是否为私密文章|  
-title|文章标题|  
-summary|文章概述，空置则默认为文章第一段|  
-content|文章内容|  
+|---|---|   
+|id|文章id|
+|private|是否为私密文章|  
+|title|文章标题|  
+|summary|文章概述，空置则默认为文章第一段|  
+|content|文章内容|  
 可使用JSON格式上传较长的参数，示例:    
 ```js
 curl -uuser -i 
