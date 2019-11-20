@@ -42,7 +42,7 @@ X-Content-Type-Options: nosniff
     ```curl -u "username" https://spblog.com```  
     确认用户存在后会要求继续输入密码，密码正确则完成认证，获得对应权限(对该账户文章修改、上传以及访问私密文章等)，否则返回```404 Not Found```  
 
-## Articles list  
+### Articles list  
 可以查看用户的所有已发布博客，响应中还会附带每篇博客的概述(若为指定则默认文章第一段)  
 ```GET /user/articles```  
 可包含的参数如下:  
@@ -53,11 +53,11 @@ max_length|选取博客的最大数量(时间排序)，不设置或为null则表
 示例:  
 curl -i -uuser https://spblog.com/user/articles?private=true&max_length=10  
 表示查看最近发布的10篇博客(包含私密博客)  
-## Get article  
+### Get article  
 可以请求获得单篇博客，响应中会附带该博客的详细信息  
 ```GET /user/articles/firstBlog/```  
 可附带private参数，使用方式与Articles list一致  
-## Search article  
+### Search article  
 可以搜索具有某种特征的博客，响应中会附带所有满足条件的博客简要信息  
 ```GET /user/search/```  
 可附带的参数如下:  
@@ -70,7 +70,7 @@ in_content|是否搜索博客内容，若为false则只搜索标题|
 实例:  
 ```curl -uuser -i https://spblog.com/user/search?keyword=api&private=true&in_content=true```  
 表示搜索包含"api"的所有博客  
-## Upload article  
+### Upload article  
 上传(发布)博客，用户必须已被认证通过  
 ```PUT /user/upload```  
 可被包含的参数如下  
@@ -92,7 +92,7 @@ curl -uuser -i -d '
 https://spblog.com/user/upload?private=true
 ```  
 
-## Update article  
+### Update article  
 可以对已发布的文章进行更新，使用方式与upload相似，但是update必须提供已存在博客的ID，其他包含的参数会覆盖原有的参数，若不附带则不变  
 ```PUT /user/upload```  
 可被包含的参数如下  
@@ -110,7 +110,7 @@ https://spblog.com/user/update?private=false&id=1
 ```  
 意思是将id为1的博客修改为公开  
 
-## Delete article  
+### Delete article  
 删除博客需要用户已认证通过，并提供已发布文章的id号    
 ```Delete /user/delete```  
 示例:  
