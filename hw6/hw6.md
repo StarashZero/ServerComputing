@@ -62,6 +62,7 @@ curl -i -uuser https://spblog.com/user/articles?private=true&max_length=10
 可以搜索具有某种特征的博客，响应中会附带所有满足条件的博客简要信息  
 ```GET /user/search/```  
 可附带的参数如下:  
+  
 |||  
 -|-| 
 private|是否包含私有博客，若为true则需认证|  
@@ -75,6 +76,7 @@ in_content|是否搜索博客内容，若为false则只搜索标题|
 上传(发布)博客，用户必须已被认证通过  
 ```PUT /user/upload```  
 可被包含的参数如下  
+  
 |||
 -|-|
 private|是否为私密文章|  
@@ -97,6 +99,7 @@ https://spblog.com/user/upload?private=true
 可以对已发布的文章进行更新，使用方式与upload相似，但是update必须提供已存在博客的ID，其他包含的参数会覆盖原有的参数，若不附带则不变  
 ```PUT /user/upload```  
 可被包含的参数如下  
+  
 |||
 -|-| 
 id|文章id|
